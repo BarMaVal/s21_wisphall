@@ -1,0 +1,121 @@
+PS C:\Users\MVM\Desktop\s21_wisphall> git add .
+PS C:\Users\MVM\Desktop\s21_wisphall> git commit -m "Добавила п.6"        
+[main c939eee] Добавила п.6
+ 1 file changed, 5 insertions(+)
+PS C:\Users\MVM\Desktop\s21_wisphall> git push origin HEAD
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 415 bytes | 415.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BarMaVal/s21_wisphall.git
+   b6d1092..c939eee  HEAD -> main
+PS C:\Users\MVM\Desktop\s21_wisphall> git log
+commit c939eeeca8bb1f27dc432a035a34c87f2bc302b4 (HEAD -> main, origin/main)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:39:22 2022 +0300
+
+    Добавила п.6
+
+commit b6d1092a06f6e7bac1024a00fd35f05af45b1873
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:36:45 2022 +0300
+
+    Добавила пять правил
+PS C:\Users\MVM\Desktop\s21_wisphall> git tag v1
+PS C:\Users\MVM\Desktop\s21_wisphall> git push origin v1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BarMaVal/s21_wisphall.git
+ * [new tag]         v1 -> v1
+PS C:\Users\MVM\Desktop\s21_wisphall> git add .
+PS C:\Users\MVM\Desktop\s21_wisphall> git commit -m "Добавила п.7"
+[main b435553] Добавила п.7
+ 1 file changed, 2 insertions(+)
+PS C:\Users\MVM\Desktop\s21_wisphall> git push origin HEAD
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 392 bytes | 392.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/BarMaVal/s21_wisphall.git
+   c939eee..b435553  HEAD -> main
+PS C:\Users\MVM\Desktop\s21_wisphall> git  log  
+commit b435553bc126bcb2c0e0c24b323ba2ef4341564a (HEAD -> main, origin/main)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:41:13 2022 +0300
+
+    Добавила п.7
+
+commit c939eeeca8bb1f27dc432a035a34c87f2bc302b4 (tag: v1)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:39:22 2022 +0300
+
+    Добавила п.6
+
+commit b6d1092a06f6e7bac1024a00fd35f05af45b1873
+PS C:\Users\MVM\Desktop\s21_wisphall> git checkout c939eeeca8bb1f27dc432a035a34c87f2bc302b4
+Note: switching to 'c939eeeca8bb1f27dc432a035a34c87f2bc302b4'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at c939eee Добавила п.6
+PS C:\Users\MVM\Desktop\s21_wisphall> git checkout main
+Previous HEAD position was c939eee Добавила п.6
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\MVM\Desktop\s21_wisphall> git tag v2
+PS C:\Users\MVM\Desktop\s21_wisphall> git push origin v2                             Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BarMaVal/s21_wisphall.git
+ * [new tag]         v2 -> v2
+PS C:\Users\MVM\Desktop\s21_wisphall> git add .                                      PS C:\Users\MVM\Desktop\s21_wisphall> git commit -m "Добавила .gitignore"
+[main c61e8b0] Добавила .gitignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+PS C:\Users\MVM\Desktop\s21_wisphall> git push origin HEAD
+Enumerating objects: 4, done.
+Revert "Удалила  6 пунктов"
+
+This reverts commit 44f6203eaaf4a8f5d715fb7281e338a4077d8798.
+
+Revert "Удалила  6 пунктов"
+ 
+This reverts commit 44f6203eaaf4a8f5d715fb7281e338a4077d8798.
+ *  Журнал восстановлен 
+# Please enter the commit message for your changes. Lines starting
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+
+PS C:\Users\MVM\Desktop\s21_wisphall> git log 
+commit ca754f96754def7105a0ee827398f3b2e8d639f9 (HEAD -> main)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:51:02 2022 +0300
+
+    Revert "Удалила  6 пунктов"
+
+    This reverts commit 44f6203eaaf4a8f5d715fb7281e338a4077d8798.
+
+commit 44f6203eaaf4a8f5d715fb7281e338a4077d8798
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:50:04 2022 +0300
+
+    Удалила  6 пунктов
+:

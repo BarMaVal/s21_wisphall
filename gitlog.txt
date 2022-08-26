@@ -1,0 +1,24 @@
+C:\Users\MVM\Desktop\s21_wisphall> git log
+commit c61e8b06bbdbc39db0a45e754b5cf611856c299a (HEAD -> main, origin/main, origin/HEAD)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:45:50 2022 +0300
+
+    Добавила .gitignore
+
+commit b435553bc126bcb2c0e0c24b323ba2ef4341564a (tag: v2)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:41:13 2022 +0300
+
+    Добавила п.7
+
+commit c939eeeca8bb1f27dc432a035a34c87f2bc302b4 (tag: v1)
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:39:22 2022 +0300
+
+    Добавила п.6
+
+commit b6d1092a06f6e7bac1024a00fd35f05af45b1873
+Author: BarMaVla <marinapole371@gmail.com>
+Date:   Fri Aug 26 13:36:45 2022 +0300
+
+    Добавила пять правил
